@@ -1,0 +1,35 @@
+{
+    "name": "gobeyondmch.com/php_pgp_library",
+    "description": "PHP-PGP-Library",
+    "type": "library",
+    "homepage": "https://www.horde.org",
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "Michael Slusarz",
+            "email": "slusarz@horde.org",
+            "role": "lead"
+        }
+    ],
+    "version": "2.0.0",
+    "time": "2017-11-11",
+    "require": {
+        "php": "^8.0.2",
+        "ext-hash": "*",
+        "bytestream/horde-stream": "^1.7",
+        "singpolyma/openpgp-php": "^0.6.0",
+        "bytestream/horde-exception": "^2.2",
+        "bytestream/horde-mail": "^2.7",
+        "phpseclib/phpseclib": "^3.0",
+        "laravel/framework": "^9.11"
+    },
+    "suggest": {
+        "ext-openssl": "*",
+        "ext-zlib": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Horde_Pgp": "lib/"
+        }
+    }
+}
